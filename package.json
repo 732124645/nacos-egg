@@ -1,6 +1,6 @@
 {
   "name": "nacos-egg",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Egg.js nacos插件",
   "eggPlugin": {
     "name": "nacos"
@@ -43,12 +43,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/nacos-egg.git"
+    "url": "git+https://github.com/732124645/nacos-egg.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/732124645/nacos-egg/issues"
   },
-  "homepage": "https://github.com/eggjs/nacos-egg#readme",
+  "homepage": "https://github.com/732124645",
   "author": "可乐",
   "license": "MIT"
 }
