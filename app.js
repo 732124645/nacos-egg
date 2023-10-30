@@ -36,7 +36,7 @@ class NacosConfigLoader {
         ip: getLocalIPAddress(),
         port: this.app.config.cluster.listen.port,
       };
-
+      this.app.nacos = client
       await client.registerInstance(serviceName || "serviceName", instance);
       console.log("服务注册成功");
     } catch (error) {
